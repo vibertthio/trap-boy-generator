@@ -1,0 +1,14 @@
+html,
+body {
+	margin: 0;
+	width: 100%;
+	/* background-color: #a3b; */
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+#sc {
+	margin: 1rem;
+}
