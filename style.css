@@ -1,6 +1,16 @@
+/*
+	color palette
+	https://www.color-hex.com/color-palette/83036
+	#4e7377	(78,115,119)
+	#d3b19c	(211,177,156)
+	#e4d0c3	(228,208,195)
+	#f4ece6	(244,236,230)
+	#545255	(84,82,85)
+ */
+
 * {
-  /* font-family: "VT323", monospace; */
   font-family: "IBM Plex Mono", monospace;
+  /* font-family: "VT323", monospace; */
 }
 
 body {
@@ -10,7 +20,6 @@ body {
 
 #p5-canvas {
   width: 640px;
-
   position: relative;
   margin: 1rem auto;
 }
