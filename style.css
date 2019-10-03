@@ -1,14 +1,41 @@
-html,
-body {
-	margin: 0;
-	width: 100%;
-	/* background-color: #a3b; */
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	align-items: center;
+* {
+  /* font-family: "VT323", monospace; */
+  font-family: "IBM Plex Mono", monospace;
 }
 
-#sc {
-	margin: 1rem;
+body {
+  text-align: center;
+  background-color: #323133;
+}
+
+#p5-canvas {
+  width: 640px;
+
+  position: relative;
+  margin: 1rem auto;
+}
+
+#play-btn {
+  position: absolute;
+  left: 270px;
+  top: 220px;
+  border: 1px solid;
+  font-size: 1rem;
+  height: 40px;
+  width: 100px;
+  color: #94abad;
+}
+
+h1 {
+  margin: 1rem auto 0.5rem auto;
+  font-size: 4rem;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  /* color: #94abad; */
+  color: #fff;
 }
